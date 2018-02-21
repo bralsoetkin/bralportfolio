@@ -1,6 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Ovo:400);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
+
+
+
 
 
 
@@ -8,11 +13,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .btn,
 .alert,
@@ -36,7 +41,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ovo', serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -50,7 +55,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ovo', serif;
 }
 .btn-sm,
 .lead a,
@@ -62,13 +67,13 @@ h6,
   font-family: 'Lora', serif;
 }
 .mbr-author-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ovo', serif;
 }
 .mbr-author-desc {
   font-family: 'Lora', serif;
 }
 .mbr-plan-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ovo', serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -408,76 +413,145 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #c0a375;
 }
-.scrollToTop_wraper {
-  opacity: 0 !important;
+#header1-e .mbr-section-title SPAN {
+  color: #000000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 60px;
 }
-#menu-0 .hide-buttons .nav-btn {
+#header1-e .mbr-section-lead {
+  color: #c1c1c1;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+}
+#header1-e .mbr-section-lead SPAN {
+  color: #7c706b;
+}
+#ext_menu-g .hide-buttons .nav-btn {
   display: none !important;
 }
-#menu-0 .navbar-caption {
+#ext_menu-g .navbar-caption {
   color: #ffffff;
 }
-#menu-0 .navbar-toggler {
-  color: #000000;
+#ext_menu-g .navbar-toggler {
+  color: #4d5363;
 }
-#menu-0 .link,
-#menu-0 .dropdown-item {
-  color: #000000;
+#ext_menu-g .close-icon::before,
+#ext_menu-g .close-icon::after {
+  background-color: #4d5363;
 }
-#menu-0 .link {
-  font-size: 0.75rem;
+#ext_menu-g .link,
+#ext_menu-g .dropdown-item {
+  color: #4d5363;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
-#menu-0 .dropdown-item,
-#menu-0 .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+#ext_menu-g .link {
+  font-size: 1.1rem;
 }
-#menu-0 .link:hover,
-#menu-0 .dropdown-item:hover,
-#menu-0 .link:focus,
-#menu-0 .dropdown-item:focus {
+#ext_menu-g .dropdown-item,
+#ext_menu-g .nav-dropdown-sm .link {
+  font-size: 1.191rem;
+}
+#ext_menu-g .link:hover,
+#ext_menu-g .dropdown-item:hover,
+#ext_menu-g .link:focus,
+#ext_menu-g .dropdown-item:focus {
   color: #c0a375;
 }
-#menu-0 .link[aria-expanded="true"],
-#menu-0 .dropdown-menu {
+#ext_menu-g .link[aria-expanded="true"],
+#ext_menu-g .dropdown-menu {
   background: #0e0e0e;
 }
-#menu-0 .nav-dropdown-sm .link:focus,
-#menu-0 .nav-dropdown-sm .link:hover,
-#menu-0 .nav-dropdown-sm .dropdown-item:focus,
-#menu-0 .nav-dropdown-sm .dropdown-item:hover {
+#ext_menu-g .nav-dropdown-sm .link:focus,
+#ext_menu-g .nav-dropdown-sm .link:hover,
+#ext_menu-g .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-g .nav-dropdown-sm .dropdown-item:hover {
   background: #202020!important;
 }
-#menu-0 .navbar,
-#menu-0 .nav-dropdown-sm,
-#menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-0 .nav-dropdown-sm .dropdown-menu {
+#ext_menu-g .navbar,
+#ext_menu-g .nav-dropdown-sm,
+#ext_menu-g .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-g .nav-dropdown-sm .dropdown-menu {
   background: #282828;
 }
-#menu-0 .bg-color.transparent .link {
+#ext_menu-g .bg-color.transparent .link {
+  color: #4d5363;
+  transition: none;
+}
+#ext_menu-g .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-g .bg-color.transparent.opened .link:hover,
+#ext_menu-g .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#ext_menu-g .link[aria-expanded="true"],
+#ext_menu-g .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-8 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-8 .navbar-caption {
+  color: #ffffff;
+}
+#menu-8 .navbar-toggler {
+  color: #000000;
+}
+#menu-8 .link,
+#menu-8 .dropdown-item {
+  color: #000000;
+}
+#menu-8 .link {
+  font-size: 0.75rem;
+}
+#menu-8 .dropdown-item,
+#menu-8 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-8 .link:hover,
+#menu-8 .dropdown-item:hover,
+#menu-8 .link:focus,
+#menu-8 .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-8 .link[aria-expanded="true"],
+#menu-8 .dropdown-menu {
+  background: #0e0e0e;
+}
+#menu-8 .nav-dropdown-sm .link:focus,
+#menu-8 .nav-dropdown-sm .link:hover,
+#menu-8 .nav-dropdown-sm .dropdown-item:focus,
+#menu-8 .nav-dropdown-sm .dropdown-item:hover {
+  background: #202020!important;
+}
+#menu-8 .navbar,
+#menu-8 .nav-dropdown-sm,
+#menu-8 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-8 .nav-dropdown-sm .dropdown-menu {
+  background: #282828;
+}
+#menu-8 .bg-color.transparent .link {
   color: #000000;
   transition: none;
 }
-#menu-0 .bg-color.transparent.opened .link {
+#menu-8 .bg-color.transparent.opened .link {
   transition: color 0.2s ease-in-out;
 }
-#menu-0 .bg-color.transparent.opened .link:hover,
-#menu-0 .bg-color.transparent.opened .link:focus {
+#menu-8 .bg-color.transparent.opened .link:hover,
+#menu-8 .bg-color.transparent.opened .link:focus {
   color: #c0a375;
 }
-#menu-0 .link[aria-expanded="true"],
-#menu-0 .dropdown-item[aria-expanded="true"] {
+#menu-8 .link[aria-expanded="true"],
+#menu-8 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#menu-0.mbr-navbar--stuck .mbr-navbar__section {
+#menu-8.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
 }
-#menu-0 .mbr-navbar__hamburger {
+#menu-8 .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#menu-0 .close-icon::before,
-#menu-0 .close-icon::after {
+#menu-8 .close-icon::before,
+#menu-8 .close-icon::after {
   background-color: #000000;
-}
-#header1-1 .mbr-section-title {
-  color: #000000;
 }
